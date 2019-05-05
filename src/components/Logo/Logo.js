@@ -1,0 +1,21 @@
+import React from 'react';
+import Tilt from 'react-tilt'
+import brain from './brain.png'
+import './Logo.css';
+
+const Logo=()=>{
+	return (
+		
+ 
+<Tilt className="Tilt br2 shadow-2" options={{ max : 55 }} style={{ height: 90, width: 100 }} >
+
+ <div className="Tilt-inner pa3">
+ 
+ 	<img style={{paddingTop:'1px'}} alt='logo' src={brain}/>;
+ </div>
+
+</Tilt>
+			);
+}
+
+export default Logo;
